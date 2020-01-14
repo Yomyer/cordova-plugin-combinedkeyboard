@@ -22,7 +22,7 @@
       <source-file src="src/ios/CombinedKeyboard.m" />      
    </platform>
 
-
+<!--
    <platform name="browser">
 
       <config-file parent="/*" target="config.xml">
@@ -51,4 +51,5 @@
       <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
 
    </platform>
+   -->
 </plugin>
