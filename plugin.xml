@@ -21,35 +21,4 @@
       <source-file src="src/ios/CombinedKeyboard.h" />
       <source-file src="src/ios/CombinedKeyboard.m" />      
    </platform>
-
-<!--
-   <platform name="browser">
-
-      <config-file parent="/*" target="config.xml">
-         <feature name="CombinedKeyboard">
-            <param name="browser-package" value="CombinedKeyboard" />
-         </feature>
-      </config-file>
-
-      <js-module name="CombinedKeyboard" src="src/browser/CombinedKeyboardProxy.js">
-         <runs />
-      </js-module>
-
-   </platform>
-
-
-   <platform name="android">
-
-      <config-file parent="/*" target="res/xml/config.xml">
-         <feature name="CombinedKeyboard">
-            <param name="android-package" value="yomyer.CombinedKeyboard" />
-         </feature>
-      </config-file>
-
-      <source-file src="src/android/CombinedKeyboard.java" target-dir="src/yomyer/CombinedKeyboard" />
-      
-      <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
-
-   </platform>
-   -->
 </plugin>

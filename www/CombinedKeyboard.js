@@ -11,4 +11,4 @@ var CombinedKeyboard = {
     }
 }
 
-module.exports = PaypalBraintree;
+module.exports = CombinedKeyboard;
